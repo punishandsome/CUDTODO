@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "885056027747",
+    "firebase_url": "https://simpletodo-6dc40.firebaseio.com",
+    "project_id": "simpletodo-6dc40",
+    "storage_bucket": "simpletodo-6dc40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885056027747:android:cf483ee8215a9356c34c56",
+        "android_client_info": {
+          "package_name": "com.panacotta.simpletodo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885056027747-nc05h2gq96jfhsjd7rhcb9so43uibo0o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.panacotta.simpletodo",
+            "certificate_hash": "5a2018e1c2f1e48ecb9908f5a9c2799166750061"
+          }
+        },
+        {
+          "client_id": "885056027747-bibophvkj40suj1m6lq6g4shc71eje76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMP4a117vZCkJSg0f-fDlYQFFtUZRqAV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885056027747-bibophvkj40suj1m6lq6g4shc71eje76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
