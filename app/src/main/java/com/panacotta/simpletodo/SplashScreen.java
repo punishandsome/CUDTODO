@@ -9,20 +9,13 @@ import android.content.Intent;
 public class SplashScreen extends AppCompatActivity {
 
 
-    public SplashScreen(Context context) {
-        this.context = context;
-    }
-
-    private Context context;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
 
-        Intent intent = new Intent(SplashScreen.this, MainActivity.class);
-        context.startActivity(intent);
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
         finish();
     }
 }
