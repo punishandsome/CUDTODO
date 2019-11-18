@@ -61,6 +61,8 @@ public class NewTaskAct extends AppCompatActivity {
                         Intent a = new Intent(NewTaskAct.this,MainActivity.class);
                         startActivity(a);
 
+                        finish();
+
                     }
 
                     @Override
@@ -80,23 +82,6 @@ public class NewTaskAct extends AppCompatActivity {
         });
 
         // import font
-        Typeface mLight = getResources().getFont(R.font.ml);
-        Typeface mMedium = getResources().getFont(R.font.mm);
-
-        // customize font
-        titlepage.setTypeface(mMedium);
-
-        addtitle.setTypeface(mLight);
-        titledoes.setTypeface(mMedium);
-
-        adddesc.setTypeface(mLight);
-        descdoes.setTypeface(mMedium);
-
-        adddate.setTypeface(mLight);
-        datedoes.setTypeface(mMedium);
-
-        btnSaveTask.setTypeface(mMedium);
-        btnCancel.setTypeface(mLight);
 
     }
 }

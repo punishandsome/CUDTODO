@@ -43,14 +43,7 @@ public class MainActivity extends AppCompatActivity {
         btnAddnew = findViewById(R.id.btnaddnew);
 
         //importing font here
-        Typeface mLight = getResources().getFont(R.font.ml);
-        Typeface mMedium = getResources().getFont(R.font.mm);
 
-        //customizing font here
-        titlepage.setTypeface(mMedium);
-        subtitlepage.setTypeface(mLight);
-        endpage.setTypeface(mLight);
-        btnAddnew.setTypeface(mLight);
 
         //set btn to jump on create task page
         btnAddnew.setOnClickListener(new View.OnClickListener() {

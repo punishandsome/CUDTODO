@@ -54,7 +54,7 @@
                 android:layout_width="52dp"
                 android:layout_height="52dp"
                 android:layout_marginTop="35dp"
-                android:layout_marginLeft="60dp"
+                android:layout_marginLeft="40dp"
                 android:id="@+id/btnaddnew"
                 android:background="@drawable/bgbtnnew"
                 android:text="+"
@@ -94,6 +94,8 @@
         android:textColor="#9A9A9A"
         android:textAlignment="center"
         />
+
+
 
 
 
